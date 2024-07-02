@@ -12,21 +12,24 @@ const Hero = () => {
         </div>
         <div className='hero-img'>
             <div>
-                <div className='tech-icon'>
-                    <img src="" alt=""/>
+                <div className='about-icon'>
+                    <img src="./assets/images/icons8-react-native-96.png" alt=""/>
+                </div>
+                <div className='about-icon'>
+                    <img src="./assets/images/icons8-musical-note-96.png" alt=""/>
                 </div>
                 <img src="" alt=""/>
             </div>
         </div>
         <div>
-            <div className='tech-icon'>
-                <img src="" alt=""/>
+            <div className='about-icon'>
+                <img src="./assets/images/icons8-gym-96.png" alt=""/>
             </div>
-            <div className='tech-icon'>
-                <img src="" alt=""/>
+            <div className='about-icon'>
+                <img src="./assets/images/icons8-poker-96" alt=""/>
             </div>
-            <div className='tech-icon'>
-                <img src="" alt=""/>
+            <div className='about-icon'>
+                <img src="./assets/images/icons8-football-96" alt=""/>
             </div>
         </div>
     </section>
