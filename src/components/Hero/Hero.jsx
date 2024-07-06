@@ -18,7 +18,7 @@ const Hero = () => {
                 <div className='about-icon'>
                     <img src="./assets/images/icons8-musical-note-96.png" alt=""/>
                 </div>
-                <img src="" alt=""/>
+                <img src="./assets/images/japa.png" alt=""/>
             </div>
         </div>
         <div>
@@ -26,10 +26,10 @@ const Hero = () => {
                 <img src="./assets/images/icons8-gym-96.png" alt=""/>
             </div>
             <div className='about-icon'>
-                <img src="./assets/images/icons8-poker-96" alt=""/>
+                <img src="./assets/images/icons8-poker-96.png" alt=""/>
             </div>
             <div className='about-icon'>
-                <img src="./assets/images/icons8-football-96" alt=""/>
+                <img src="./assets/images/icons8-football-96.png" alt=""/>
             </div>
         </div>
     </section>
