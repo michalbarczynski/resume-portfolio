@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Skills.scss';
 import SkillsCard from './SkillsCard/SkillsCard';
-import { SKILLS } from '../../utils/skillsData';
+import { SKILLS } from '../../utils/skillsAndWorkExperienceData';
 import SkillsInfoCard from './SkillsInfoCard/SkillsInfoCard';
 
 const Skills = () => {
