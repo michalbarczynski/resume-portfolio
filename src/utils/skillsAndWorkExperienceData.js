@@ -49,11 +49,12 @@ export const SKILLS = [
 
 export const WORK_EXPERIENCE = [
     {
-        title: "Frontend",
-        date: "",
-        responsibilites: [
+        title: "Frontend Developer",
+        date: "January 2020 - Present",
+        responsibilities: [
             "Lorep impsun",
-            "Dolor Sit Amet"
+            "Dolor Sit Amet",
         ],
     },
 ];
+ 
