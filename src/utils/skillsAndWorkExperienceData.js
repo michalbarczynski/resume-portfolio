@@ -63,8 +63,9 @@ export const WORK_EXPERIENCE = [
         date: "December 2022 - March 2023",
         responsibilities: [
             "Resolving layout and responsiveness bugs",
-            "Transferring stores to the shopify platform",
-            "Development of e-commerce store software components"
+            "Transferring stores to the Shopify platform",
+            "Development of e-commerce store software components",
+            "Designing and proposing UI/UX styles to the project manager"
         ],
     },
     {
@@ -74,16 +75,17 @@ export const WORK_EXPERIENCE = [
             "Testing video game-related software",
             "Reporting bugs via Jira",
             "Performing tasks from developers based on DevTrack tool",
-            "Verifying developers' work, by checking whether the bugs have been fixed correctly• Testing video game-related software. • Reporting bugs via Jira • Performing tasks from developers based on DevTrack tool • Verifying developers' work, by checking whether the bugs have been fixed correctly"
+            "Verifying developers' work, by checking whether the bugs have been fixed correctly"
         ],
     },
     {
         title: "Shift Manager",
         date: "August 2021 - January 2022",
         responsibilities: [
-            "Coordinating the deliveries of products and being responsible about their placement in dark stores.",
+            "Coordinating the deliveries of products",
             "Managing a small group of employees - order pickers and drivers",
             "Administration of dark store documentation",
+            "Daily reporting of sales results to coordinators"
         ],
     },
     {

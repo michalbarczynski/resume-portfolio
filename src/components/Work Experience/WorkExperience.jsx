@@ -2,6 +2,9 @@ import React, { useRef } from 'react';
 import { WORK_EXPERIENCE } from '../../utils/skillsAndWorkExperienceData';
 import ExperienceCard from './ExperienceCard/ExperienceCard';
 import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import './WorkExperience.scss'
 
 const WorkExperience = () => {
   const slideRef = useRef();
@@ -12,7 +15,7 @@ const WorkExperience = () => {
     slidesToShow: 2,
     slidesToScroll: 1,
     arrows: false,
-    reponsive: [
+    responsive: [
       {
         breakpoint: 769,
         settings: {
@@ -36,10 +39,10 @@ const WorkExperience = () => {
         <h5>Work Experience</h5>
         <div className="experience-content">
           <div className="arrow-right" onClick={slideRight}>
-            <span class="material-symbols-outlined">chevron_right</span>
+            <span className="material-symbols-outlined">chevron_right</span>
           </div>
           <div className="arrow-left" onClick={slideLeft}>
-            <span class="material-symbols-outlined">chevron_left</span>
+            <span className="material-symbols-outlined">chevron_left</span>
           </div>
           <Slider ref={slideRef} {...settings}>
             {WORK_EXPERIENCE.map(item => (
