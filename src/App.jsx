@@ -5,6 +5,7 @@ import Hero from './components/Hero/Hero';
 import './App.css'
 import WorkExperience from './components/Work Experience/WorkExperience';
 import ContactMe from './components/Contact/ContactMe';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <WorkExperience />
         <ContactMe />
       </div>
+      <Footer />
     </>
   );
 }
