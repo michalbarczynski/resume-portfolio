@@ -4,7 +4,7 @@ import "./ContactForm.scss";
 const ContactForm = () => {
   return (
     <div className="contact-form-content">
-      <form>
+      <form action="https://formsubmit.co/michal.barczynski97@gmail.com" method="POST">
         <div className="name-container">
           <input type="text" name="firstname" placeholder="First Name" />
           <input type="text" name="lastname" placeholder="Last Name" />
