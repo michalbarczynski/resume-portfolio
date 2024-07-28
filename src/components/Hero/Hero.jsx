@@ -5,7 +5,7 @@ const Hero = () => {
     <section className='hero-container'>
       <div className='hero-content'>
         <h2>Junior Frontend Developer</h2>
-        <p>Lorem Ipsum dolor sit amet</p>
+        <p>Junior Front-end Dev, DJ, music producer, football and poker player. Graduate of the department of economics. Love to eat, cook, train hard and learn strategies.</p>
       </div>
 
       <div className='hero-img'>
