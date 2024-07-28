@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import "./Navbar.scss";
-import MobileNav from '../MobileNav/MobileNav';
+import MobileNav from "../MobileNav/MobileNav";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -13,12 +13,13 @@ const Navbar = () => {
     setOpenMenu(false);
     const element = document.getElementById(id);
     if (element) {
-      const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+      const elementPosition =
+        element.getBoundingClientRect().top + window.pageYOffset;
       const offsetPosition = elementPosition + offset;
-      
+
       window.scrollTo({
         top: offsetPosition,
-        behavior: "smooth"
+        behavior: "smooth",
       });
     }
   };
@@ -26,17 +27,21 @@ const Navbar = () => {
   return (
     <>
       <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
-      <nav className='nav-wrapper'>
-        <div className='nav-content'>
-          <img className='logo' src="./assets/images/logo_preview_rev_1.png" alt="Logo" />
+      <nav className="nav-wrapper">
+        <div className="nav-content">
+          <img
+            className="logo"
+            src="./assets/images/logo_preview_rev_1.png"
+            alt="Logo"
+          />
           <ul>
             <li>
               <a
-                className='menu-item'
+                className="menu-item"
                 href="#home"
                 onClick={(e) => {
                   e.preventDefault();
-                  scrollToSection('home', -100);
+                  scrollToSection("home", -100);
                 }}
               >
                 Home
@@ -44,11 +49,11 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                className='menu-item'
+                className="menu-item"
                 href="#skills"
                 onClick={(e) => {
                   e.preventDefault();
-                  scrollToSection('skills', -150);
+                  scrollToSection("skills", -150);
                 }}
               >
                 Skills
@@ -56,11 +61,11 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                className='menu-item'
+                className="menu-item"
                 href="#work-experience"
                 onClick={(e) => {
                   e.preventDefault();
-                  scrollToSection('work-experience', -150);
+                  scrollToSection("work-experience", -150);
                 }}
               >
                 Work Experience
@@ -68,21 +73,21 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                className='menu-item'
+                className="menu-item"
                 href="#contact"
                 onClick={(e) => {
                   e.preventDefault();
-                  scrollToSection('contact', -150);
+                  scrollToSection("contact", -150);
                 }}
               >
                 Contact
               </a>
             </li>
-            <button className='contact-btn' onClick={() => {}}>
+            <button className="contact-btn" onClick={() => {}}>
               Hire Me
             </button>
           </ul>
-          <button className='menu-btn' onClick={toggleMenu}>
+          <button className="menu-btn" onClick={toggleMenu}>
             {openMenu ? (
               <i className="fas fa-times" style={{ fontSize: "1.8rem" }}></i>
             ) : (
@@ -93,6 +98,6 @@ const Navbar = () => {
       </nav>
     </>
   );
-}
+};
 
 export default Navbar;

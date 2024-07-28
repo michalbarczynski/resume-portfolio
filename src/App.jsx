@@ -1,17 +1,17 @@
-import React from 'react';
+import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Skills from "./components/Skills/Skills";
-import Hero from './components/Hero/Hero';
-import WorkExperience from './components/Work Experience/WorkExperience';
-import ContactMe from './components/Contact/ContactMe';
-import Footer from './components/Footer/Footer';
-import './App.css';
+import Hero from "./components/Hero/Hero";
+import WorkExperience from "./components/Work Experience/WorkExperience";
+import ContactMe from "./components/Contact/ContactMe";
+import Footer from "./components/Footer/Footer";
+import "./App.css";
 
 function App() {
   return (
     <>
       <Navbar />
-      <div className='container'>
+      <div className="container">
         <section id="home">
           <Hero />
         </section>

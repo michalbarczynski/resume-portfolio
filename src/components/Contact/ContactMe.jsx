@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react";
 import "./ContactMe.scss";
-import ContactInfoCard from './ContactInfoCard/ContactInfoCard';
-import ContactForm from './ContactForm/ContactForm';
+import ContactInfoCard from "./ContactInfoCard/ContactInfoCard";
+import ContactForm from "./ContactForm/ContactForm";
 
 const ContactMe = () => {
   return (
-    <section className='contact-container'>
+    <section className="contact-container">
       <h5>Contact Me</h5>
 
-      <div className='contact-content'>
+      <div className="contact-content">
         <div style={{ flex: 1 }}>
           <ContactInfoCard
             iconUrl="./assets/images/icons8-gmail-logo-96.png"
@@ -28,7 +28,7 @@ const ContactMe = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default ContactMe;
