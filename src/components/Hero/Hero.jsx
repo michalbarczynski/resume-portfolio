@@ -13,7 +13,7 @@ const Hero = () => {
           <div className='about-icon .main'>
             <img src="./assets/images/icons8-react-native-96.png" alt="React Native"/>
           </div>
-          <img src="./assets/images/japa.png" alt="Japa"/>
+          <img src="./assets/images/hero.jpg" alt="Hero"/>
         </div>
 
 
