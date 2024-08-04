@@ -1,17 +1,17 @@
-import React, { useState } from 'react';
-import './Skills.scss';
-import SkillsCard from './SkillsCard/SkillsCard';
-import { SKILLS } from '../../utils/skillsAndWorkExperienceData';
-import SkillsInfoCard from './SkillsInfoCard/SkillsInfoCard';
+import React, { useState } from "react";
+import "./Skills.scss";
+import SkillsCard from "./SkillsCard/SkillsCard";
+import { SKILLS } from "../../utils/skillsAndWorkExperienceData";
+import SkillsInfoCard from "./SkillsInfoCard/SkillsInfoCard";
 
 const Skills = () => {
-  const [selectedSkill, setSelectedSkill] = useState(SKILLS[0])
-  const handleSelcetedSkill = data => {
+  const [selectedSkill, setSelectedSkill] = useState(SKILLS[0]);
+  const handleSelcetedSkill = (data) => {
     setSelectedSkill(data);
-  }
+  };
 
   return (
-    <section className='skills-container'>
+    <section className="skills-container">
       <h5>Technical Proficiency</h5>
 
       <div className="skills-content">
@@ -26,12 +26,15 @@ const Skills = () => {
             />
           ))}
         </div>
-        <div className='skills-info'>
-          <SkillsInfoCard heading={selectedSkill.title} skills={selectedSkill.skills}/>
+        <div className="skills-info">
+          <SkillsInfoCard
+            heading={selectedSkill.title}
+            skills={selectedSkill.skills}
+          />
         </div>
       </div>
     </section>
   );
-}
+};
 
 export default Skills;

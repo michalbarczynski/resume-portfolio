@@ -12,7 +12,7 @@
     background: #7e61e7;
     position: absolute;
     z-index: -1;
-    filter: blur(225px); 
+    filter: blur(225px);
   }
 
   &::after {
@@ -32,7 +32,7 @@
   h2 {
     font-size: 3.8rem;
     font-weight: 600;
-    line-height: 5rem;  
+    line-height: 5rem;
     margin-bottom: 1rem;
   }
 
@@ -149,7 +149,8 @@
   }
 
   .hero-content {
-    h2, p {
+    h2,
+    p {
       width: auto;
       text-align: center;
     }
@@ -180,7 +181,7 @@
       line-height: 1.3rem;
     }
   }
-  
+
   .hero-img {
     gap: 1rem;
   }
