@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+Welcome to my personal portfolio website! This project showcases my skills, professional experience. It serves as an online resume and portfolio, providing a comprehensive overview of my capabilities and achievements in the web development field.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+LIVE DEMO: https://michalbarczynski.github.io/resume-portfolio/
 
-## Available Scripts
+Overview
+This website is designed to be a professional representation of my work and skills. It includes sections such as:
 
-In the project directory, you can run:
+About Me: A brief introduction about who I am and my passions.
+Skills: A detailed list of technologies and tools I am proficient in, including programming languages, frameworks, libraries, and other relevant skills.
+Work Experience: A timeline of my professional experience, highlighting key positions and responsibilities held in various organizations.
+Contact: Ways to get in touch with me, including social media links and a contact form.
+Technologies Used
+This portfolio website is built using modern web development technologies to ensure a responsive and visually appealing design. The stack includes:
 
-### `npm start`
+HTML5: For the semantic structure of the site. </br>
+CSS3: For styling and layout, including responsive design techniques. </br>
+JavaScript (ES6+): For interactivity and dynamic content. </br>
+React.js: A JavaScript library for building user interfaces, ensuring a smooth and efficient user experience. </br>
+SCSS: A preprocessor scripting language that is interpreted or compiled into CSS, used for more manageable and reusable stylesheets. </br>
+Webpack: A module bundler used to bundle JavaScript files for usage in a browser. </br>
+Git: Version control system to manage and track changes in the project. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Features
+Responsive Design: The site is fully responsive and mobile-friendly, ensuring it looks great on all devices.
+Interactive UI: Smooth animations and interactive elements enhance the user experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Getting Started
+To explore the project, you can clone the repository and run it locally on your machine. Ensure you have Node.js and npm installed.
 
-### `npm test`
+Clone the repository:
+git clone https://github.com/yourusername/portfolio-website.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Navigate to the project directory:
+cd portfolio-website
 
-### `npm run build`
+Install dependencies:
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Start the development server:
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Open your browser and navigate to http://localhost:3000 to view the site.
