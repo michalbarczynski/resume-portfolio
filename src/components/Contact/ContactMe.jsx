@@ -2,6 +2,9 @@ import React from "react";
 import "./ContactMe.scss";
 import ContactInfoCard from "./ContactInfoCard/ContactInfoCard";
 import ContactForm from "./ContactForm/ContactForm";
+import github from "../../images/github.png";
+import gmail from "../../images/gmail.png";
+import linkedin from "../../images/linkedin.png";
 
 const ContactMe = () => {
   return (
@@ -11,15 +14,15 @@ const ContactMe = () => {
       <div className="contact-content">
         <div style={{ flex: 1 }}>
           <ContactInfoCard
-            iconUrl="./assets/images/icons8-gmail-logo-96.png"
+            iconUrl={gmail}
             text="michal.barczynski97@gmail.com"
           />
           <ContactInfoCard
-            iconUrl="./assets/images/icons8-github-96.png"
+            iconUrl={github}
             text="https://github.com/michalbarczynski"
           />
           <ContactInfoCard
-            iconUrl="./assets/images/icons8-linkedin-96.png"
+            iconUrl={linkedin}
             text="https://www.linkedin.com/in/michal-barczynski-607861191/"
           />
         </div>

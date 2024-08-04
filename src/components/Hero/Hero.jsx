@@ -1,4 +1,10 @@
 import "./Hero.scss";
+import football from "../../images/football.png";
+import gym from "../../images/gym.png";
+import hero from "../../images/hero.jpg";
+import music from "../../images/music.png";
+import poker from "../../images/poker.png";
+import react from "../../images/react.png";
 
 const Hero = () => {
   return (
@@ -16,28 +22,28 @@ const Hero = () => {
         <div className="about-icons">
           <div className="about-icon .main">
             <img
-              src="/assets/images/icons8-react-native-96.png"
+              src={react}
               alt="React Native"
             />
           </div>
-          <img src="/assets/images/hero.jpg" alt="Hero" />
+          <img src={hero} alt="Hero" />
         </div>
 
         <div className="about-icons bottom">
           <div className="about-icon">
             <img
-              src="/assets/images/icons8-musical-note-96.png"
+              src={music}
               alt="Musical Note"
             />
           </div>
           <div className="about-icon">
-            <img src="/assets/images/icons8-gym-96.png" alt="Gym" />
+            <img src={gym} alt="Gym" />
           </div>
           <div className="about-icon">
-            <img src="/assets/images/icons8-poker-96.png" alt="Poker" />
+            <img src={poker} alt="Poker" />
           </div>
           <div className="about-icon">
-            <img src="/assets/images/icons8-football-96.png" alt="Football" />
+            <img src={football }alt="Football" />
           </div>
         </div>
       </div>
