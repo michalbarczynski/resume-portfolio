@@ -16,28 +16,28 @@ const Hero = () => {
         <div className="about-icons">
           <div className="about-icon .main">
             <img
-              src="./assets/images/icons8-react-native-96.png"
+              src="/assets/images/icons8-react-native-96.png"
               alt="React Native"
             />
           </div>
-          <img src="./assets/images/hero.jpg" alt="Hero" />
+          <img src="/assets/images/hero.jpg" alt="Hero" />
         </div>
 
         <div className="about-icons bottom">
           <div className="about-icon">
             <img
-              src="./assets/images/icons8-musical-note-96.png"
+              src="/assets/images/icons8-musical-note-96.png"
               alt="Musical Note"
             />
           </div>
           <div className="about-icon">
-            <img src="./assets/images/icons8-gym-96.png" alt="Gym" />
+            <img src="/assets/images/icons8-gym-96.png" alt="Gym" />
           </div>
           <div className="about-icon">
-            <img src="./assets/images/icons8-poker-96.png" alt="Poker" />
+            <img src="/assets/images/icons8-poker-96.png" alt="Poker" />
           </div>
           <div className="about-icon">
-            <img src="./assets/images/icons8-football-96.png" alt="Football" />
+            <img src="/assets/images/icons8-football-96.png" alt="Football" />
           </div>
         </div>
       </div>
