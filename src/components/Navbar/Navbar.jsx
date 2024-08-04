@@ -83,9 +83,6 @@ const Navbar = () => {
                 Contact
               </a>
             </li>
-            <button className="contact-btn" onClick={() => {}}>
-              Hire Me
-            </button>
           </ul>
           <button className="menu-btn" onClick={toggleMenu}>
             {openMenu ? (
