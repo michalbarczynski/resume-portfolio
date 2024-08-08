@@ -16,7 +16,7 @@ const ContactForm = () => {
         </div>
         <input type="text" name="email" placeholder="E-mail" />
         <textarea name="message" placeholder="Message" rows={3} />
-        <input type="hidden" name="_next" value="https://google.com"/>
+        {/* <input type="hidden" name="_next" value="https://google.com"/> */}
         <button type="submit">SEND</button>
       </form>
     </div>
