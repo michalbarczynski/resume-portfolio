@@ -43,7 +43,7 @@
             <p>To explore the project, you can clone the repository and run it locally on your machine. Ensure you have Node.js and npm installed.</p>
             <ul>
                 <li><strong>Clone the repository:</strong></li>
-                <pre><code>git clone https://github.com/yourusername/portfolio-website.git</code></pre>
+                <pre><code>git clone https://github.com/michalbarczynski/resume-portfolio.git</code></pre>
                 <li><strong>Navigate to the project directory:</strong></li>
                 <pre><code>cd portfolio-website</code></pre>
                 <li><strong>Install dependencies:</strong></li>
